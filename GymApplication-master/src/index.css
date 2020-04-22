@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#inner{
+  width: 50%;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#outer{
+  width: 100%;
+}
+
+#image{
+  width: 30%;
+}
+
+#usersList{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#bookingsList{
+  width: 45%;
+  margin: 0 auto;
+  
+  text-align: center;
+
+}
+
+#calendar{
+  width: 100%;
+  height: 500pt;
+  margin: auto;
+  text-align: center;
+}
+
+#store {
+  width: 75%;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+#itemTitle {
+  font-size: large;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+#itemDesc {
+  font-size: medium;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+#itemImg {
+  width: 50%;
+}
+
+#itemPrice {
+  font-size: medium;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+#button{
+  width: 25%;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+#button:hover {
+  background-color: #e7e7e7;
+}
+
+#text {
+  width: 45%;
+}
+
+#tab {
+  color: black;
+  background-color: blue;
+}
+
+#tab:hover {
+  background-color: brown;
+}
